@@ -11,7 +11,7 @@ function RootLayout(
     {children}: RootLayoutProps
 ) {
   return (
-    <section className='max-w-screen min-h-screen flex flex-col items-center justify-between'>
+    <section className='max-w-screen min-h-screen flex flex-col items-center justify-between bg-background'>
         <Navbar/>
         {children}
         <Footer/>
